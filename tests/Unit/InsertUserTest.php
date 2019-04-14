@@ -19,7 +19,7 @@ class InsertUserTest extends TestCase
     public function testInsertUser()
     {
         # $user = User::first();
-        # $data = UserFacotry::factory();
+        # $data = UserFactory::factory();
         $data = [
             'name' => Str::random(5),
             'email' => Str::random(6) . '@gmail.com',

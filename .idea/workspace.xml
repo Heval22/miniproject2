@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d98d28e3-2770-4f82-884c-d4381d8f9f8c" name="Default Changelist" comment="8.  Create a unit test to count the number of records inserted by the database seed.  i.e. $userCount = 50">
+    <list default="true" id="d98d28e3-2770-4f82-884c-d4381d8f9f8c" name="Default Changelist" comment="6.  Create a unit test to update the name of a user in the database to Steve Smith.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/CountUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/DeleteUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/InsertUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/UpdateUser.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +57,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/InsertUserTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="e#30#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateUserNameTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,6 +123,8 @@
         <option value="$PROJECT_DIR$/tests/Unit/InsertCar.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CountUser.php" />
         <option value="$PROJECT_DIR$/tests/Unit/UpdateUser.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/InsertUserTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/UpdateUserNameTest.php" />
       </list>
     </option>
   </component>
@@ -190,7 +212,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1295" />
     <option name="y" value="23" />
-    <option name="width" value="1210" />
+    <option name="width" value="1379" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -310,7 +332,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555160028555</updated>
       <workItem from="1555160029931" duration="11209000" />
-      <workItem from="1555246602956" duration="4845000" />
+      <workItem from="1555246602956" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="1. Initial setup of Laravel site">
       <created>1555160813878</created>
@@ -417,11 +439,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555250805074</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="5.  Create a unit test to insert a user into the users table.">
+      <created>1555252001515</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555252001515</updated>
+    </task>
+    <task id="LOCAL-00017" summary="6.  Create a unit test to update the name of a user in the database to Steve Smith.">
+      <created>1555252151769</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555252151769</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16054000" />
+    <option name="totallyTimeSpent" value="16796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,9 +469,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1295" y="23" width="1210" height="1030" extended-state="0" />
+    <frame x="1295" y="23" width="1379" height="1030" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16903515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -454,7 +490,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.26712328" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.23335826" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -529,11 +565,11 @@
     <MESSAGE value="2. Write a feature test to check if the login pages return a 200 status code" />
     <MESSAGE value="3. Write a feature test to check if the About page returns a 200 status code" />
     <MESSAGE value="4. Write a feature test to check if the contact page returns a 200 status code" />
-    <MESSAGE value="5.  Create a unit test to insert a user into the users table." />
-    <MESSAGE value="6.  Create a unit test to update the name of a user in the database to Steve Smith." />
     <MESSAGE value="7.  Create a unit test to delete a user in the database." />
     <MESSAGE value="8.  Create a unit test to count the number of records inserted by the database seed.  i.e. $userCount = 50" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.  Create a unit test to count the number of records inserted by the database seed.  i.e. $userCount = 50" />
+    <MESSAGE value="5.  Create a unit test to insert a user into the users table." />
+    <MESSAGE value="6.  Create a unit test to update the name of a user in the database to Steve Smith." />
+    <option name="LAST_COMMIT_MESSAGE" value="6.  Create a unit test to update the name of a user in the database to Steve Smith." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2c6d0e02-1de3-49f9-b7c8-6aaaa2ce0a57/console.sql">
@@ -749,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/InsertUserTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#28#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateUserTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -783,6 +809,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/InsertUserTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateUserNameTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

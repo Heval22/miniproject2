@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d98d28e3-2770-4f82-884c-d4381d8f9f8c" name="Default Changelist" comment="" />
+    <list default="true" id="d98d28e3-2770-4f82-884c-d4381d8f9f8c" name="Default Changelist" comment="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +98,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/InsertCarTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateCarYearTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/DeleteCarTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/CountCarTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#28#47#0#PHP" expanded="true" />
               </folding>
@@ -144,10 +194,12 @@
         <option value="$PROJECT_DIR$/tests/Unit/UpdateUserNameTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/DeleteUserTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CountUserTest.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/UpdateCarYearTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/InsertUserTest.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/InsertCarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/UpdateCarYearTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/DeleteCarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/CountCarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php" />
       </list>
     </option>
   </component>
@@ -360,7 +412,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555160028555</updated>
       <workItem from="1555160029931" duration="11209000" />
-      <workItem from="1555246602956" duration="8558000" />
+      <workItem from="1555246602956" duration="9079000" />
     </task>
     <task id="LOCAL-00001" summary="1. Initial setup of Laravel site">
       <created>1555160813878</created>
@@ -509,11 +561,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555255559564</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="10.  Create a unit test to test updating a car year to 2000.">
+      <created>1555255690413</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555255690413</updated>
+    </task>
+    <task id="LOCAL-00023" summary="11. Create a unit test to test deleting a car.">
+      <created>1555255816713</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555255816713</updated>
+    </task>
+    <task id="LOCAL-00024" summary="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50">
+      <created>1555255892181</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1555255892181</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19767000" />
+    <option name="totallyTimeSpent" value="20288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,6 +599,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1295" y="23" width="1379" height="1030" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16903515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -627,7 +701,10 @@
     <MESSAGE value="8.  Create a unit test to count the number of records inserted by the database seed.  i.e. $userCount = 50" />
     <MESSAGE value="5.  Create a unit test to insert a user into the users table (typo fix as well)" />
     <MESSAGE value="9.  Create a unit test to test inserting a car." />
-    <option name="LAST_COMMIT_MESSAGE" value="9.  Create a unit test to test inserting a car." />
+    <MESSAGE value="10.  Create a unit test to test updating a car year to 2000." />
+    <MESSAGE value="11. Create a unit test to test deleting a car." />
+    <MESSAGE value="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2c6d0e02-1de3-49f9-b7c8-6aaaa2ce0a57/console.sql">
@@ -856,26 +933,6 @@
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateCarYearTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#28#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#28#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -914,6 +971,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/InsertCarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateCarYearTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/DeleteCarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CountCarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://eb4796ab-877c-4339-a623-4f9638d8b591/schema/main/table/cars">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -921,10 +1018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/InsertCarTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#28#47#0#PHP" expanded="true" />
           </folding>

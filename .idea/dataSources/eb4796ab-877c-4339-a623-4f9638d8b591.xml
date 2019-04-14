@@ -37,11 +37,11 @@
     </column>
     <column id="15" parent="6" name="make">
       <Position>4</Position>
-      <DataType>str|0s</DataType>
+      <DataType>string|0s</DataType>
     </column>
     <column id="16" parent="6" name="model">
       <Position>5</Position>
-      <DataType>str|0s</DataType>
+      <DataType>string|0s</DataType>
     </column>
     <column id="17" parent="6" name="year">
       <Position>6</Position>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d98d28e3-2770-4f82-884c-d4381d8f9f8c" name="Default Changelist" comment="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50">
+    <list default="true" id="d98d28e3-2770-4f82-884c-d4381d8f9f8c" name="Default Changelist" comment="14.  Create a unit test to check if a car's make is either ford / honda / toyota.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,6 +149,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/CarMakeTypeTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#28#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/CarModelTypeTest.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
@@ -200,6 +224,8 @@
         <option value="$PROJECT_DIR$/tests/Unit/DeleteCarTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CountCarTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/CarMakeTypeTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/CarModelTypeTest.php" />
       </list>
     </option>
   </component>
@@ -412,7 +438,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555160028555</updated>
       <workItem from="1555160029931" duration="11209000" />
-      <workItem from="1555246602956" duration="9079000" />
+      <workItem from="1555246602956" duration="9667000" />
     </task>
     <task id="LOCAL-00001" summary="1. Initial setup of Laravel site">
       <created>1555160813878</created>
@@ -582,11 +608,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555255892181</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="13.   Create a unit test to check if a car's year is an integer.">
+      <created>1555256301258</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1555256301258</updated>
+    </task>
+    <task id="LOCAL-00026" summary="14.  Create a unit test to check if a car's make is either ford / honda / toyota.">
+      <created>1555256399495</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1555256399495</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20288000" />
+    <option name="totallyTimeSpent" value="20876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +647,7 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49919224" visible="true" weight="0.35287845" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49919224" visible="true" weight="0.2238806" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50080776" side_tool="true" weight="0.4540146" />
       <window_info anchor="bottom" id="Database Console" order="5" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -616,7 +656,7 @@
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32846716" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -704,7 +744,9 @@
     <MESSAGE value="10.  Create a unit test to test updating a car year to 2000." />
     <MESSAGE value="11. Create a unit test to test deleting a car." />
     <MESSAGE value="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.  Create a unit test to test to count the number of records inserted by the database seed.  i.e. $carCount = 50" />
+    <MESSAGE value="13.   Create a unit test to check if a car's year is an integer." />
+    <MESSAGE value="14.  Create a unit test to check if a car's make is either ford / honda / toyota." />
+    <option name="LAST_COMMIT_MESSAGE" value="14.  Create a unit test to check if a car's make is either ford / honda / toyota." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2c6d0e02-1de3-49f9-b7c8-6aaaa2ce0a57/console.sql">
@@ -971,6 +1013,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CountCarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CarMakeTypeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CarModelTypeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#28#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://eb4796ab-877c-4339-a623-4f9638d8b591/schema/main/table/cars">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/InsertCarTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1001,27 +1080,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/CountCarTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#28#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://eb4796ab-877c-4339-a623-4f9638d8b591/schema/main/table/cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/CarYearTypeTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="e#28#47#0#PHP" expanded="true" />
           </folding>

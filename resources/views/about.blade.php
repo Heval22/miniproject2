@@ -12,8 +12,8 @@
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #fff;
-            color: #636b6f;
+            background-color: #ede6ef;
+            color: #3a81a5;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
@@ -85,7 +85,7 @@
 
         <br>
 
-        <h1>This is an about page.</h1>
+        <h1>I am a technolgy student at New Jersey Institute of Technology, in Newark, New Jersey. This is my second Laravel Project.</h1>
 
 </body>
 </html>
